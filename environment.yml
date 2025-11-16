@@ -1,0 +1,16 @@
+name: variant-benchmark
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.10
+  - pandas
+  - matplotlib
+  - seaborn
+  - numpy
+  - bcftools
+  - rtg-tools
+  - docker-py  # optional, for Docker control
+  - pip
+  - pip:
+      - happy # hap.py via pip
